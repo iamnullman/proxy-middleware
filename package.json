@@ -1,0 +1,14 @@
+{
+    "name": "proxy-middleware",
+    "version": "0.1.0",
+    "main": "proxy.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "iamnullman",
+    "license": "MIT",
+    "description": "This is a simple JavaScript code designed to determine the origin domain of incoming requests to a server and perform port forwarding to the specified port for that domain.",
+    "dependencies": {
+        "http-proxy": "^1.18.1"
+    }
+}
